@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Life is a pixel</h1>
+
+        <div class="container">
+            <div class="paraContainer">
+                <div class="slider">
+                    <input type="range" id="myRange" min="0" max="100" value="16" oninput="rangeValue.innerText = this.value">
+                    <p id="rangeValue">16</p>
+                </div>
+                <input type="color" id="head" name="head" value="#e66465">
+                <button class="buttonColor" role="button">Color</button>
+                <button class="buttonRainbow" role="button">Rainbow</button>
+                <button class="buttonEraser" role="button">Eraser</button>
+                <button class="buttonClear" role="button">Clear</button>
+            </div>
+
+            <div id="divContainer"></div>
+
+            
+
+        </div>
+
+
+            
+          
+        <script src="main.js" async defer></script>
+    </body>
+</html>
