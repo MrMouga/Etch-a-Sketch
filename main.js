@@ -18,6 +18,7 @@ createDiv();
 button();
 buttonListener();
 colorPickerListener();
+drawDiv();
 
 
 document.body.addEventListener("mousedown", function(){
