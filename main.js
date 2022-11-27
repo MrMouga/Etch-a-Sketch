@@ -18,7 +18,7 @@ createDiv();
 button();
 buttonListener();
 colorPickerListener();
-//slider();
+
 
 document.body.addEventListener("mousedown", function(){
     mouseDown='true';})

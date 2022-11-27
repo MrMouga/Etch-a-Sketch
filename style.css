@@ -13,14 +13,32 @@ body{
 
 #divContainer{
     display: grid;
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     border: 2px solid black;
     background-color:#EEF0F2;
 
 
 }
 
+
+
+@media (min-width:2000px){
+    #divContainer{width:800px; height:800px}
+    }
+
+@media (min-width:2500px){
+    #divContainer{width:1000px; height:1100px}
+    }
+
+
+@media (min-width:3000px){
+    #divContainer{width:1200px; height:1200px}
+    }
+
+    @media (min-width:4000px){
+        #divContainer{width:1300px; height:1300px}
+        }
 
 .div-item:hover{
     background-color: red;
@@ -36,15 +54,15 @@ h1{
 button {
   background-color: #fbeee0;
   border: 2px solid #74716c;
-  border-radius: 30px;
+  border-radius: 3em;
   box-shadow: #817d78 4px 4px 0 0;
   color: #422800;
   cursor: pointer;
   display: inline-block;
   font-weight: 600;
-  font-size: 18px;
-  padding: 0 18px;
-  line-height: 50px;
+  font-size: 1.5em;
+  padding: 0 1em;
+  line-height: 2em;
   text-align: center;
   text-decoration: none;
   user-select: none;
@@ -83,7 +101,7 @@ button:focus, button:active, button.selected{
 }
 
 button{
-    margin:20px;
+    margin:1em;
     min-width:12em;
 }
 
@@ -105,7 +123,7 @@ input[type='color'] {
     margin-bottom:5%;
     }
     .slider p {
-    font-size: 20px;
+    font-size: 1.5em;
     font-weight: 600;
     font-family: Open Sans;
     padding-left: 0.2em;
@@ -113,7 +131,7 @@ input[type='color'] {
     }
     .slider input[type="range"] {
     -webkit-appearance:none !important;
-    width: 420px;
+    width: 18em;
     height: 2px;
     background: rgb(255, 255, 255);
     border: none;
@@ -121,8 +139,8 @@ input[type='color'] {
     }
     .slider input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none !important;
-    width: 30px;
-    height:30px;
+    width: 2.6em;
+    height:2.6em;
     background: rgb(255, 255, 255);
     border: 2px solid black;
     border-radius: 50%;
